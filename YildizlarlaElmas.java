@@ -9,7 +9,7 @@ public class YildizlarlaElmas {
 
         Scanner inp = new Scanner(System.in);
 
-        System.out.println("Bir N sayısı giriniz : ");
+        System.out.print("Bir N sayısı giriniz : ");
         n = inp.nextInt();
         int saveN = n;
 
@@ -23,6 +23,7 @@ public class YildizlarlaElmas {
             }
             System.out.println();
         }
+        
         // ELMASIN ALT KISMI
         for (int i = 1; i < n; i++) {
             for (int k = 1; k <= i; k++) {
